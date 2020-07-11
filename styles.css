@@ -1,0 +1,114 @@
+body {
+    background-color:lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    
+    background-color: white;
+    padding: 5%;
+}
+
+#my-pic {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 60%;
+}
+
+.link {
+    color: rgb(92, 89, 89);
+}
+
+.my-brand {
+    display: block;
+    background-color:rgb(74, 192, 188);
+    font-weight: 700;
+    color: whitesmoke;
+    margin: 0;
+    margin-left: 5%;
+}
+
+.first-row {
+    color: rgb(74, 192, 188);
+    font-weight: 600;
+}
+
+#my-list-wrapper {
+    /*display: table; */
+}
+
+#my-list {
+    display: table;
+    margin: 0 auto;
+}
+
+ul#my-list li {
+    display:inline-block;
+}
+
+.my-list-link {
+    color: rgb(92, 89, 89);
+    font-size: large;
+}
+
+#submit-button {
+    background-color:  rgb(74, 192, 188);
+    color: whitesmoke;
+    border-width: 0px;
+    border-style: none;
+}
+
+#about-me {
+    color: rgb(92, 89, 89);
+}
+
+.project {
+    /*margin-right: 5px;
+    margin-bottom: 5px;  
+    */
+    /*
+        border-width: 1px;
+        border-color: grey;
+        border-style: solid;
+    */
+}
+
+.project-link {
+    font-size: large;
+    color: rgb(74, 192, 188);
+}
+
+footer {
+    border-top-color: rgb(74, 192, 188);
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+
+@media screen and (min-width: 980px) {
+    .wrapper {
+        margin-right:20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #my-pic {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #my-list-wrapper {
+        width: 100%;
+    }
+
+    .my-brand {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
